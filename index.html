@@ -3,26 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Encontre ofertas imperdíveis de produtos com descontos especiais.">
-    <meta name="keywords" content="ofertas, descontos, produtos, promoções">
-    <title>Promoções Imperdíveis</title>
+    <meta name="description" content="Ofertas imperdíveis de produtos com descontos especiais. Compre online através de nossos links afiliados e aproveite preços exclusivos.">
+    <meta name="keywords" content="ofertas, descontos, produtos, afiliados, compras online">
+    <title>Ofertas Imperdíveis - Produtos com Descontos</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
-        .container { max-width: 800px; margin: auto; }
-        .produto { border: 1px solid #ddd; padding: 10px; margin: 10px; border-radius: 5px; }
-        .produto img { max-width: 100%; height: auto; }
-        .botao { display: inline-block; padding: 10px; background: #ff9900; color: white; text-decoration: none; border-radius: 5px; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #ff6600; padding: 20px; text-align: center; }
+        header h1 { color: white; font-size: 36px; }
+        .container { width: 90%; margin: auto; }
+        .produtos { display: flex; flex-wrap: wrap; justify-content: space-between; }
+        .produto { background-color: white; border: 1px solid #ddd; border-radius: 5px; margin: 10px; padding: 15px; width: 30%; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        .produto img { width: 100%; height: auto; border-radius: 5px; }
+        .produto h3 { font-size: 20px; color: #333; }
+        .produto p { font-size: 16px; color: #666; }
+        .preco { font-size: 18px; color: #e60000; font-weight: bold; margin-top: 10px; }
+        .botao { display: inline-block; padding: 10px 20px; background-color: #ff6600; color: white; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        .botao:hover { background-color: #e65c00; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
     </style>
 </head>
 <body>
-    <h1>Ofertas Especiais</h1>
+    <header>
+        <h1>Ofertas Imperdíveis - Descontos Exclusivos</h1>
+        <p>Compre online e aproveite as melhores promoções de produtos selecionados!</p>
+    </header>
+
     <div class="container">
-        <div class="produto">
-            <img src="URL_da_imagem_real" alt="Produto 1">
-            <h2>Nome do Produto</h2>
-            <p>Descrição breve do produto.</p>
-            <!-- O botão agora não faz referência à Amazon -->
-        </div>
+        <section class="produtos">
+            <div class="produto">
+                <img src="https://via.placeholder.com/300" alt="Produto 1">
+                <h3>Produto Exemplo 1</h3>
+                <p>Descrição breve do produto com detalhes importantes.</p>
+                <p class="preco">R$ 99,90</p>
+                <a href="https://www.exemplo.com/produto-1?affid=seucodigo" class="botao" target="_blank">Comprar Agora</a>
+            </div>
+            <div class="produto">
+                <img src="https://via.placeholder.com/300" alt="Produto 2">
+                <h3>Produto Exemplo 2</h3>
+                <p>Descrição breve do produto com detalhes importantes.</p>
+                <p class="preco">R$ 129,90</p>
+                <a href="https://www.exemplo.com/produto-2?affid=seucodigo" class="botao" target="_blank">Comprar Agora</a>
+            </div>
+            <div class="produto">
+                <img src="https://via.placeholder.com/300" alt="Produto 3">
+                <h3>Produto Exemplo 3</h3>
+                <p>Descrição breve do produto com detalhes importantes.</p>
+                <p class="preco">R$ 79,90</p>
+                <a href="https://www.exemplo.com/produto-3?affid=seucodigo" class="botao" target="_blank">Comprar Agora</a>
+            </div>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2025 Ofertas Imperdíveis. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
