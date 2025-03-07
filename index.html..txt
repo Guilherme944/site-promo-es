@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre ofertas imperdíveis de produtos com descontos especiais.">
+    <meta name="keywords" content="ofertas, descontos, produtos, Amazon, promoções">
     <title>Promoções Imperdíveis</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
@@ -16,10 +18,10 @@
     <h1>Ofertas Especiais</h1>
     <div class="container">
         <div class="produto">
-            <img src="https://via.placeholder.com/200" alt="Produto 1">
+            <img src="URL_da_imagem_real" alt="Produto 1">
             <h2>Nome do Produto</h2>
             <p>Descrição breve do produto.</p>
-            <a href="https://www.amazon.com.br/dp/SEU-CODIGO-AFILIADO" class="botao" target="_blank">Ver na Amazon</a>
+            <a href="https://www.amazon.com.br/dp/CODIGO_AQUI" class="botao" target="_blank">Ver na Amazon</a>
         </div>
     </div>
 </body>
