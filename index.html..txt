@@ -1,0 +1,25 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoções Imperdíveis</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        .produto { border: 1px solid #ddd; padding: 10px; margin: 10px; border-radius: 5px; }
+        .produto img { max-width: 100%; height: auto; }
+        .botao { display: inline-block; padding: 10px; background: #ff9900; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Ofertas Especiais</h1>
+    <div class="container">
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Produto 1">
+            <h2>Nome do Produto</h2>
+            <p>Descrição breve do produto.</p>
+            <a href="https://www.amazon.com.br/dp/SEU-CODIGO-AFILIADO" class="botao" target="_blank">Ver na Amazon</a>
+        </div>
+    </div>
+</body>
+</html>
